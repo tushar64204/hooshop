@@ -1,0 +1,183 @@
+/* Main container */
+.main_container {
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: calc(100vh - 100px); /* Adjust for header and footer height */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #1a237e; /* Dark blue */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+				0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+				0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .navbar h1 {
+	color: #ffd700; /* Gold */
+	font-size: 25px;
+	margin: 0;
+  }
+  
+  .navbar .white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 20px;
+	background-color: white;
+	color: #1a237e; /* Dark blue */
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+  }
+  
+  .navbar .white_btn:hover {
+	color: #ffd700; /* Gold */
+  }
+  
+  .nav_buttons {
+	display: flex;
+	align-items: center;
+  }
+  
+  .menu_btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+	color: #ffd700; /* Gold */
+  }
+  
+  .menu_btn:hover {
+	color: white; /* White on hover */
+  }
+  
+  .profile_info {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+	color: #ffffff; /* White */
+  }
+  
+  .profile_info span {
+	margin-left: 0.5rem;
+	color: white; /* White */
+  }
+  
+  /* Company logo */
+  .company_logo {
+	display: block;
+	margin: 20px auto;
+	max-width: 120px;
+  }
+  
+  /* Slogan */
+  .slogan {
+	font-size: 18px;
+	color: #1a237e; /* Dark blue */
+	font-style: italic;
+	text-align: center;
+	margin-top: 10px;
+  }
+  
+  /* Form */
+  .form {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #1a237e1a; /* Slightly transparent dark blue */
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+  }
+  
+  .form h2 {
+	text-align: center;
+	color: #1a237e; /* Dark blue */
+  }
+  
+  .form label {
+	margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form select,
+  .form textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  .form button {
+	padding: 10px 15px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .form button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+	width: 100%;
+	background-color: #1a237e; /* Dark blue */
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+  }
+  
+  /* Thank you message */
+  .thankYou {
+	text-align: center;
+	padding: 2rem;
+	border: 2px solid #ffc107;
+	background-color: #fff3cd;
+	color: #856404;
+	font-weight: bold;
+	border-radius: 5px;
+  }
+  
+  .thankYou h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.navbar h1 {
+	  font-size: 20px;
+	}
+  
+	.navbar .white_btn {
+	  padding: 10px;
+	  font-size: 12px;
+	}
+  
+	.company_logo {
+	  max-width: 100px;
+	}
+  
+	.slogan {
+	  font-size: 16px;
+	}
+  }
+  
