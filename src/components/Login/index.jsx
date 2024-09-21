@@ -22,6 +22,7 @@ const Login = () => {
                 setError("Invalid email or password.");
             }
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [location.search]);
 
     const handleChange = ({ currentTarget: input }) => {
